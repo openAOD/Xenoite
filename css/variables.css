@@ -1,0 +1,33 @@
+/* Variables */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600&family=Work+Sans:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+  --font-primary: 'Work Sans', sans-serif;
+  --font-secondary: 'Exo 2', sans-serif;
+  --font-size-lv5: 0.7rem;
+  --font-size-lv4: 1.2rem;
+  --font-size-lv3: 1.9rem;
+  --font-size-lv2: 2.9rem;
+  --font-size-lv1: 4rem;
+  --padding-min: 0.5rem;
+  --padding-default: 1rem;
+  --padding-lg: 1.5rem;
+  --padding-xlg: 3rem;
+  --padding-slg: 8rem;
+  --margin-min: 0.2rem;
+  --margin-base: 1rem;
+  --section-margin-lv1: 0.5rem;
+  --section-margin-lv2: 3rem;
+  --section-margin-lv3: 5rem;
+  --section-margin-lv4: 10rem;
+  --primary-color: #00B8D4;
+  --primary-shade-color: #00E5FF;
+  --contrast-color: #FFFF00;
+  --contrast-shade-color: #FFD600;
+  --supplementary-shade-1: #FAFAFA;
+  --supplementary-shade-2: #F5F5F5;
+  --foreground-color: white;
+  --border-radius-base: 0.4rem;
+  --transition-duration-default: 0.7s;
+  --transition-duration-long: 1s;
+}

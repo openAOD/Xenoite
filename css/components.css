@@ -1,0 +1,84 @@
+@import url('variables.css');
+
+/* Components */
+
+.cmp-header-sm {
+  background-color: var(--primary-color);
+  color: var(--foreground-color);
+  font-size: var(--font-size-sm);
+  width: 100%;
+}
+
+.cmp-banner-lg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: var(--padding-slg);
+  padding-bottom: var(--padding-slg);
+  background-color: var(--supplementary-shade-1);
+}
+
+.cmp-section {
+  margin-left: var(--section-margin-lv4);
+  margin-right: var(--section-margin-lv4);
+}
+
+.cmp-section h1, h2, h3 {
+  line-height: 0.5rem;
+}
+
+.cmp-section h4, h5 {
+  line-height: 0.1rem;
+}
+
+.cmp-section h1 {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-lv1);
+}
+
+.cmp-section h2 {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-lv2);
+}
+
+.cmp-section h3 {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-lv3);
+}
+
+.cmp-section h4 {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-lv4);
+}
+
+.cmp-section h5 {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-lv5);
+}
+
+.cmp-section table {
+  width: 100%;
+}
+
+.cmp-section caption {
+  background-color: var(--primary-color);
+  padding: var(--padding-min);
+
+  border-radius: var(--border-radius-base);
+}
+
+.button-primary {
+  border: none;
+  margin: var(--margin-base);
+  padding: var(--padding-default);
+  padding-left: var(--padding-lg);
+  padding-right: var(--padding-lg);
+  border-radius: var(--border-radius-base);
+  background-color: var(--contrast-color);
+  box-shadow: inset 0em 0em 0.7em var(--contrast-shade-color);
+  transition-duration: var(--transition-duration-default);
+}
+
+.button-primary:hover {
+  background-color: var(--contrast-shade-color);
+}

@@ -1,0 +1,169 @@
+@import url('variables.css');
+
+/* Utility Classes */
+
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+.font-size-xsm {
+  font-size: var(--font-size-lv5);
+}
+
+.font-size-sm {
+  font-size: var(--font-size-lv4);
+}
+
+.font-size-base {
+  font-size: var(--font-size-lv3);
+}
+
+.font-size-lg {
+  font-size: var(--font-size-lv2);
+}
+
+.font-size-xlg {
+  font-size: var(--font-size-lv1);
+}
+
+.padding {
+  padding: var(--padding-default);
+}
+
+.padding-h {
+  padding-left: var(--padding-default);
+  padding-right: var(--padding-default);
+}
+
+.padding-hr {
+  padding-right: var(--padding-default);
+}
+
+.padding-hl {
+  padding-left: var(--padding-default);
+}
+
+.padding-v {
+  padding-top: var(--padding-lg);
+  padding-bottom: var(--padding-lg);
+}
+
+.padding-vt {
+  padding-top: var(--padding-default);
+}
+
+.padding-vb {
+  padding-bottom: var(--padding-default);
+}
+
+.padding-h-lg {
+  padding-left: var(--padding-lg);
+  padding-right: var(--padding-lg);
+}
+
+.padding-hr-lg {
+  padding-right: var(--padding-lg);
+}
+
+.padding-hl-lg {
+  padding-left: var(--padding-lg);
+}
+
+.padding-v-lg {
+  padding-top: var(--padding-lg);
+  padding-bottom: var(--padding-lg);
+}
+
+.padding-vt-lg {
+  padding-top: var(--padding-lg);
+}
+
+.padding-vb-lg {
+  padding-bottom: var(--padding-lg);
+}
+
+.padding-h-slg {
+  padding-left: var(--padding-slg);
+  padding-right: var(--padding-slg);
+}
+
+.padding-hr-slg {
+  padding-right: var(--padding-slg);
+}
+
+.padding-hl-slg {
+  padding-left: var(--padding-slg);
+}
+
+.padding-v-slg {
+  padding-top: var(--padding-slg);
+  padding-bottom: var(--padding-slg);
+}
+
+.padding-vt-slg {
+  padding-top: var(--padding-slg);
+}
+
+.padding-vb-slg {
+  padding-bottom: var(--padding-slg);
+}
+
+.margin {
+  padding: var(--margin-default);
+}
+
+.padding-null {
+  padding: 0rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-1 {
+  background-color: var(--supplementary-shade-1);
+}
+
+/* Specific Defaults */
+
+html, body {
+  margin: 0rem;
+  overflow-x: hidden;
+}
+
+div, span, section {
+  padding: var(--padding-min);
+  padding: var(--margin-min);
+}
+
+header, footer {
+  padding: var(--padding-default);
+}
+
+body, button {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-base);
+}
