@@ -14,3 +14,20 @@ section.banner .section-heading {
 section.banner .section-description {
     font-size: larger;
 }
+
+section.end-section {
+    background-color: lightblue;
+    border-top: 0.5rem solid blue;
+    color: black;
+    padding: 4rem 1.5rem;
+}
+
+section.end-section .section-heading {
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 1rem 0rem;
+}
+
+section.end-section .section-description {
+    font-size: large;
+}
