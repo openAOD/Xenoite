@@ -10,12 +10,34 @@
 .btn-p {
     border: none;
     padding: 0.75rem 1rem;
-    background-color: white;
+    background-color: transparent;
     color: #009cc6;
     font-size: inherit;
 }
 
 .btn-p:hover {
-    background-color: #efefef;
     text-decoration: 1px solid #009cc6 underline;
+}
+
+.btn-s {
+    border: none;
+    padding: 0.75rem 1rem;
+    background-color: transparent;
+    color: #009cc6;
+    font-size: inherit;
+}
+
+.btn-s:hover {
+    text-decoration: 1px solid #009cc6 underline;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.btn-group button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
