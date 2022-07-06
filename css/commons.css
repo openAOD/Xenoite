@@ -2,7 +2,7 @@
 
 html, body {
     margin: 0;
-    overflow-x: none;
+    overflow-x: clip;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -16,6 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     border-bottom: 0.5px solid #ababab;
+    background-color: white;
 }
 
 header .left {
@@ -33,6 +34,7 @@ header .left .logo {
 
 .vertical-spacer {
     border-left: #5d5d5d 3px solid;
+    padding: 0rem 0rem 0rem 1rem;
 }
 
 .left-navigation {
@@ -46,7 +48,10 @@ header .left .logo {
 
 .hide-mobile {
     display: none;
-    gap: 1rem;
+}
+
+.show-mobile {
+    display: block;
 }
 
 .left-navigation .active {
@@ -77,6 +82,47 @@ header .right {
     text-decoration: 1px solid #009cc6 underline;
 }
 
+.split-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.split-3 .left-sidebar {
+    flex-grow: 10;
+    flex-shrink: 8;
+}
+
+.split-3 .main-content {
+    flex-grow: 20;
+    flex-shrink: 8;
+}
+
+.split-3 .right-sidebar {
+    flex-grow: 12;
+    flex-shrink: 8;
+}
+
+.right-sidebar-content {
+    margin: 2rem;
+    border: 0.5px #dfdfdf solid;
+    border-radius: 1rem;
+}
+
+.right-sidebar-heading {
+    padding: 0.75rem;
+    background-color: #dfdfdf;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.right-sidebar-link {
+    padding: 0.25rem 0.75rem;
+    color: #009cc6;
+    font-weight: lighter;
+}
+
+
  @media only screen and (max-width: 600px) {
  }
 
@@ -89,6 +135,10 @@ header .right {
     }
     .left-navigation {
         display: flex;
+    }
+
+    .show-mobile {
+        display: none;
     }
 }
 
