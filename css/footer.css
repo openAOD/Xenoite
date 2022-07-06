@@ -42,6 +42,10 @@ footer .footer-container .right .footer-navigation {
     gap: 1rem;
 }
 
+footer .footer-container .right .footer-navigation .nav-element:hover {
+    border-bottom: 1px black solid;
+}
+
 footer .footer-container .right .notice {
     width: max-content;
     align-self: center;
