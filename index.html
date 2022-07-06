@@ -7,8 +7,9 @@
     <title>Template</title>
     <link rel="stylesheet" href="css/commons.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/divs.css">
     <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/footer.css">
 
@@ -26,17 +27,17 @@
         </div>
 
         <div class="left-navigation">
-            <div class="active">Home</div>
-            <div>Projects</div>
-            <div>Licensing</div>
-            <div>Contributing</div>
-            <div>About</div>
+            <a href="#"><div class="active">Home</div></a>
+            <a href="projects.html"><div>Projects</div></a>
+            <a href="licensing.html"><div>Licensing</div>
+            <a href="contributing.html"><div>Contributing</div>
+            <a href="about.html"><div>About</div></a>
         </div>
     </div>
 
     <div class="right">
-        <button class="btn-p hide-mobile">DevPortal</button>
-        <div class="text">Homepage <button class="bt-plain"><i class="im im-menu"></i></button></div>
+        <a href="devportal/index.html"><div class="btn-p hide-mobile">DevPortal</div></a>
+        <div class="text">Homepage <div class="bt-plain"><i class="im im-menu"></i></div></div>
     </div>
 </header>
 
@@ -44,8 +45,8 @@
     <div class="section-heading">Lorem Ipsum </div>
     <div class="section-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem maiores quas quia hic blanditiis maxime molestiae repellendus enim odit aut tempora veniam, ab expedita obcaecati at necessitatibus incidunt laudantium? Eius.</div>
     <div class="btn-group">
-        <button class="btn-p">Lorem</button>
-        <button class="btn-s">Ipsum</button>
+        <div class="btn-p">Lorem</div>
+        <div class="btn-s">Ipsum</div>
     </div>
 </section>
 
@@ -57,9 +58,47 @@
             <div class="card-heading">Vercel</div>
             <div class="card-description">We use Vercel to build and host websites on their servers. We want to thank them for sponsoring this project.</div>
         </div>
-        <div class="card-end">
-            <div class="link">Learn More</div>
-            <div><i class="im im-external-link"></i></div>
+        <a href="https://vercel.com/?utm_source=openAOD&utm_campaign=oss">
+            <div class="card-end">
+                <div class="link">Learn More</div>
+                <div><i class="im im-external-link"></i></div>
+            </div>
+        </a>
+    </div>
+</section>
+
+<section class="visible-holder section-licensing">
+    <div class="license-holder-text">
+        Open Source Licensing
+    </div>
+    <div class="card-holder license-holder">
+        <div class="card">
+            <div class="card-title"> FSF Approved License </div>
+            <div class="card-content">
+                <div class="card-image"><img src="https://cdn.openaod.org/img/vercel-logotype-dark.png"/></div>
+                <div class="card-heading">Vercel</div>
+                <div class="card-description">We use Vercel to build and host websites on their servers. We want to thank them for sponsoring this project.</div>
+            </div>
+            <a href="https://vercel.com/?utm_source=openAOD&utm_campaign=oss">
+                <div class="card-end">
+                    <div class="link">Learn More</div>
+                    <div><i class="im im-external-link"></i></div>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <div class="card-title"> Sponsored by </div>
+            <div class="card-content">
+                <div class="card-image"><img src="https://cdn.openaod.org/img/vercel-logotype-dark.png"/></div>
+                <div class="card-heading">Vercel</div>
+                <div class="card-description">We use Vercel to build and host websites on their servers. We want to thank them for sponsoring this project.</div>
+            </div>
+            <a href="https://vercel.com/?utm_source=openAOD&utm_campaign=oss">
+                <div class="card-end">
+                    <div class="link">Learn More</div>
+                    <div><i class="im im-external-link"></i></div>
+                </div>
+            </a>
         </div>
     </div>
 </section>
@@ -68,21 +107,23 @@
     <div class="section-heading">Lorem Ipsum </div>
     <div class="section-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem maiores quas quia hic blanditiis maxime molestiae repellendus enim odit aut tempora veniam, ab expedita obcaecati at necessitatibus incidunt laudantium? Eius.</div>
     <div class="btn-group">
-        <button class="btn-p">Lorem</button>
-        <button class="btn-s">Ipsum</button>
+        <div class="btn-p">Lorem</div>
+        <div class="btn-s">Ipsum</div>
     </div>
 </section>
 
 <footer>
     <div class="footer-container">
-        <div class="left">
-            <div class="text">Powered by</div>
-            <div> <img src="https://cdn.openaod.org/img/vercel-logotype-dark.png" height="40rem"/></div>
-        </div>
+        <a href="https://vercel.com/?utm_source=openAOD&utm_campaign=oss">
+            <div class="left">
+                <div class="text">Powered by</div>
+                <div> <img src="https://cdn.openaod.org/img/vercel-logotype-dark.png" height="40rem"/></div>
+            </div>
+        </a>
         <div class="right">
             <div class="footer-navigation">
-                <div class="nav-element">GitHub</div>
-                <div class="nav-element">Contact</div>
+                <a href="https://github.com/openAOD"><div class="nav-element">GitHub</div></a>
+                <a href="mailto:admin@openaod.org"><div class="nav-element">Contact</div></a>
             </div>
             <div class="notice">Copyright &copy; 2022, openAOD</div>
         </div>

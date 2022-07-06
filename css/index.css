@@ -33,5 +33,53 @@ section.end-section .section-description {
 }
 
 .card-holder .card {
-    width: 14rem;
+    max-width: 14rem;
+}
+
+.license-holder {
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+    width: 80%;
+    padding: 1rem;
+    margin: 0rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.license-holder .card {
+    max-width: none;
+    width: 35%;
+    min-width: 14rem;
+    background-color: #d6ffcf;
+}
+
+.license-holder .card .card-title {
+    background-color: #5eff44;
+}
+
+.license-holder .card .card-end {
+    background-color: #5eff44;
+}
+
+.license-holder .card .card-end:hover {
+    background-color: #31ff00;
+}
+
+.license-holder-text {
+    font-size: xx-large;
+}
+
+.section-licensing {
+    width: 70%;
+    margin: 0 auto;
+    padding: 3rem;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 868px) { 
+    .license-holder {
+        flex-direction: row;
+        padding: 2rem 0rem;
+    }
 }

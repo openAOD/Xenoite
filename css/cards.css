@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 4rem 1rem;
+    margin: 4rem auto;
+    padding: 1rem;
 }
 
 .card-holder .card {
@@ -79,3 +80,7 @@
     max-width: 100%;
 }
 
+.visible-holder {
+    border: 5px solid black;
+    border-radius: 14px;
+}
