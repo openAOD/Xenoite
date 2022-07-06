@@ -12,38 +12,9 @@ body {
     font-size: var(--font-base);
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 0.5px solid #ababab;
-    background-color: white;
-}
-
-header .left {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 0.75rem;
-}
-
-header .left .logo {
-    padding: 0.75rem;
-    display: flex;
-    gap: 1rem;
-    font-size: x-large;
-}
-
 .vertical-spacer {
     border-left: #5d5d5d 3px solid;
     padding: 0rem 0rem 0rem 1rem;
-}
-
-.left-navigation {
-    display: none;
-    align-self: center;
-    font-size: large;
-    gap: 1rem;
-    margin-left: 1rem;
-    font-weight: lighter;
 }
 
 .hide-mobile {
@@ -53,75 +24,6 @@ header .left .logo {
 .show-mobile {
     display: block;
 }
-
-.left-navigation .active {
-    border-bottom: 1px black solid;
-}
-
-.left-navigation div:hover {
-    border-bottom: 1px black solid;
-}
-
-header .right {
-    display: flex;
-    align-items: center;
-    align-self: center;
-    margin-right: 0.75rem;
-}
-
-.btn-p {
-    border: none;
-    padding: 0.75rem 1rem;
-    background-color: white;
-    color: #009cc6;
-    font-size: inherit;
-}
-
-.btn-p:hover {
-    background-color: #efefef;
-    text-decoration: 1px solid #009cc6 underline;
-}
-
-.split-3 {
-    display: flex;
-    flex-direction: row;
-}
-
-.split-3 .left-sidebar {
-    flex-grow: 10;
-    flex-shrink: 8;
-}
-
-.split-3 .main-content {
-    flex-grow: 20;
-    flex-shrink: 8;
-}
-
-.split-3 .right-sidebar {
-    flex-grow: 12;
-    flex-shrink: 8;
-}
-
-.right-sidebar-content {
-    margin: 2rem;
-    border: 0.5px #dfdfdf solid;
-    border-radius: 1rem;
-}
-
-.right-sidebar-heading {
-    padding: 0.75rem;
-    background-color: #dfdfdf;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    margin-bottom: 0.25rem;
-}
-
-.right-sidebar-link {
-    padding: 0.25rem 0.75rem;
-    color: #009cc6;
-    font-weight: lighter;
-}
-
 
  @media only screen and (max-width: 600px) {
  }
@@ -135,10 +37,6 @@ header .right {
     }
     .left-navigation {
         display: flex;
-    }
-
-    .show-mobile {
-        display: none;
     }
 }
 

@@ -1,0 +1,21 @@
+.bt-plain {
+    border: none;
+    padding: 0rem 0.75rem;
+}
+
+.bt-plain:hover {
+    background-color: white;
+}
+
+.btn-p {
+    border: none;
+    padding: 0.75rem 1rem;
+    background-color: white;
+    color: #009cc6;
+    font-size: inherit;
+}
+
+.btn-p:hover {
+    background-color: #efefef;
+    text-decoration: 1px solid #009cc6 underline;
+}

@@ -1,0 +1,16 @@
+section.banner {
+    background-color: lightblue;
+    border-bottom: 0.5rem solid blue;
+    color: black;
+    padding: 4rem 1.5rem;
+}
+
+section.banner .section-heading {
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 1rem 0rem;
+}
+
+section.banner .section-description {
+    font-size: larger;
+}
