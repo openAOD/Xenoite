@@ -51,17 +51,9 @@ footer .footer-container .right .notice {
     align-self: center;
 }
 
-footer .footer-container .left .btn-p {
-    display: none;
-}
-
 @media only screen and (min-width: 868px) {
     footer .footer-container {
         flex-direction: row;
-    }
-
-    footer .footer-container .left .btn-p {
-        display: block;
     }
 
     footer .footer-container .right {
