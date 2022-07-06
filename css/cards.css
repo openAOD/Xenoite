@@ -1,0 +1,81 @@
+.card-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 4rem 1rem;
+}
+
+.card-holder .card {
+    border: 1px solid gray;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition-duration: 0.7s;
+}
+
+.card-holder .card:hover {
+    box-shadow: 0px 0px 20px 15px #ddd;
+}
+
+.card-holder .card .card-title {
+    padding: 1rem;
+    background-color: #e7e7e7;
+    border-bottom: 1px solid gray;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.card-holder .card .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+.card-holder .card .card-content .card-heading {
+    text-align: center;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.card-holder .card .card-content .card-description {
+    padding: 0.5rem;
+    font-size: medium;
+
+}
+
+.card-holder .card .card-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-top: 1px solid gray;
+    background-color: #e7e7e7;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    transition-duration: 0.7s;
+}
+
+.card-holder .card .card-end:hover {
+    background-color: #e1e2ff;
+}
+
+.card-holder .card .card-end .link {
+    border-bottom: 1px solid transparent;
+}
+
+.card-holder .card .card-end .link:hover {
+    border-bottom: 1px solid black;
+}
+
+.card-holder .card .card-content .card-image {
+    padding: 1rem 0.75rem;
+}
+
+.card-holder .card .card-content .card-image img {
+    max-width: 100%;
+}
+

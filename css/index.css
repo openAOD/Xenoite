@@ -31,3 +31,7 @@ section.end-section .section-heading {
 section.end-section .section-description {
     font-size: large;
 }
+
+.card-holder .card {
+    width: 14rem;
+}
