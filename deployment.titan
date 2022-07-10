@@ -1,0 +1,2 @@
+deploy_to : cdn;
+deploy_dir : assets css js;
