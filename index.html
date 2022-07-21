@@ -4,38 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
-    <link rel="stylesheet" href="css/commons.css">
-    <link rel="stylesheet" href="css/index.css">
+    <title>openAOD</title>
+    
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/theme.css">
+
+    <script src="js/header.js"></script>
 </head>
 
 <header>
-    <div class="left">
-        <div class="logo">
+    <div class="wrapper">
+        <div class="left">
+            <div class="mobile-menu-burger"><button class="close-button" onclick="openSidebar()"><img src="svg/menu-burger.svg" alt="[SIDEBAR]"/></button></div>
+            <div class="logo"></div>
             <div class="text">openAOD</div>
-            <div class="hide-mobile">
-                <div class="vertical-spacer"></div>
-                <div class="text">Web</div>
+        </div>
+        <div class="center">
+            <div class="navigation">
+                <div class="active">Home</div>
+                <div>Projects</div>
+                <div>Licensing</div>
+                <div>Contribuiting</div>
+                <div>About</div>
             </div>
         </div>
-
-        <div class="left-navigation">
-            <div class="active">Home</div>
-            <div>Projects</div>
-            <div>Contributing</div>
-            <div>Licensing</div>
-            <div>About</div>
+        <div class="right">
+            <div class="btn-primary">Click me!</div>
         </div>
     </div>
-
-    <div class="right">
-        <button class="btn-p hide-mobile">Developer Portal</button>
-        <div class="text">Home</div>
+    <div class="sidebar" id="sidebar">
+        <span class="close-img"><button class="close-button" onclick="closeSidebar()"><img src="svg/cross.svg" alt="[CLOSE]"></button></span>
+        <div class="spacer"></div>
+        <div class="active">Home</div>
+        <div>Projects</div>
+        <div>Licensing</div>
+        <div>Contribuiting</div>
+        <div>About</div>
+        <div class="footnote">Copyright &copy 2022, openAOD <br> Licensed under MIT</div>
     </div>
 </header>
-
-
-
-
 
 </html>
